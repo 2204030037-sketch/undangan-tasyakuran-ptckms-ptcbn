@@ -87,7 +87,7 @@ body {
   margin: 30px 0;
 }
 
-.final-img {
+.finall-img {
   width: 100%;
   max-width: 420px;   /* HP */
   height: auto;
@@ -96,7 +96,7 @@ body {
 
 /* KHUSUS LAPTOP / DESKTOP */
 @media (min-width: 1024px) {
-  .final-img {
+  .finall-img {
     max-width: 800px; /* laptop jadi gede */
   }
 }
@@ -141,4 +141,5 @@ body {
   cursor: pointer;
   box-shadow: 0 4px 10px rgba(0,0,0,0.3);
 }
+
 
