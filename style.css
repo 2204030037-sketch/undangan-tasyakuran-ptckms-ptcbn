@@ -10,7 +10,7 @@ body {
 }
 
 .logo {
-  width: 120px;
+  width: 300px;
   margin-bottom: 15px;
 }
 
@@ -25,13 +25,13 @@ body {
 
 .cover h1 {
   font-size: 28px;
-  color: #1b5e20;
+  color: #9BEA2E;
 }
 
 .cover button {
   margin-top: 20px;
   padding: 10px 25px;
-  background: #2e7d32;
+  background: #9BEA2E;
   border: none;
   color: white;
   font-size: 16px;
@@ -56,7 +56,7 @@ body {
 }
 
 .box {
-  border: 2px solid #2e7d32;
+  border: 2px solid #9BEA2E;
   padding: 15px;
   margin: 20px 0;
 }
@@ -65,7 +65,7 @@ body {
   display: inline-block;
   margin: 15px 0;
   padding: 10px 22px;
-  background: #388e3c;
+  background: #9BEA2E;
   color: white;
   text-decoration: none;
 }
@@ -78,4 +78,66 @@ body {
 @keyframes slide {
   from {transform: translateY(25px); opacity:0}
   to {transform: translateY(0); opacity:1}
+}
+
+.img-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+.final-img {
+  width: 100%;
+  max-width: 420px;   /* HP */
+  height: auto;
+  border-radius: 12px;
+}
+
+/* KHUSUS LAPTOP / DESKTOP */
+@media (min-width: 1024px) {
+  .final-img {
+    max-width: 800px; /* laptop jadi gede */
+  }
+}
+
+.maps {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+  margin: 30px auto;
+}
+
+.maps-img {
+  width: 100%;
+  max-width: 420px;   /* HP */
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Laptop */
+@media (min-width: 1024px) {
+  .maps-img {
+    max-width: 800px;
+  }
+}
+
+.maps p {
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.music-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #9BEA2E;
+  border: none;
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  font-size: 24px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
 }
