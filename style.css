@@ -88,18 +88,20 @@ body {
 }
 
 .finall-img {
-  width: 100%;
-  max-width: 420px;   /* HP */
+  width: 90%;          /* jangan full 100% */
+  max-width: 500px;    /* batasi maksimal ukuran */
   height: auto;
   border-radius: 12px;
 }
 
-/* KHUSUS LAPTOP / DESKTOP */
+/* Laptop / desktop */
 @media (min-width: 1024px) {
   .finall-img {
-    max-width: 800px; /* laptop jadi gede */
+    max-width: 650px;  /* lebih kecil dari 800px */
   }
 }
+
+
 
 .maps {
   display: block;
@@ -141,5 +143,6 @@ body {
   cursor: pointer;
   box-shadow: 0 4px 10px rgba(0,0,0,0.3);
 }
+
 
 
